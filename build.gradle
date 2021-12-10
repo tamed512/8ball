@@ -3,6 +3,10 @@ buildscript {
     repositories {
         google()
         mavenCentral()
+        maven {
+            url = "https://repo.josephworks.net/repository/maven-public/"
+            name = "Josephworks Repo"
+        }
     }
     dependencies {
         classpath "com.android.tools.build:gradle:7.0.3"
