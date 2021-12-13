@@ -12,10 +12,6 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-<<<<<<< HEAD
-        //hello
-        
-=======
 
         // link all the variables with its id
         val imageView = findViewById<View>(R.id.image_eightBall) as ImageView
@@ -32,6 +28,5 @@ class MainActivity : AppCompatActivity() {
             // set the image to the view
             imageView.setImageResource(a[x])
         }
->>>>>>> main
     }
 }
