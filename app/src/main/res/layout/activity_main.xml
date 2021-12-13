@@ -30,7 +30,7 @@
                 android:layout_height="wrap_content"
                 android:layout_centerInParent="true"
                 android:gravity="center"
-                android:text="Make everyday decisions easier!"
+                android:text="Ask the magic 8ball a yes or no question!"
                 android:textColor="#000000"
                 android:textSize="25dp"
                 android:textStyle="bold" />
